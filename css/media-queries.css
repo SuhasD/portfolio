@@ -336,7 +336,7 @@
    }
 
    .columns.portfolio-item{
-      padding:0;
+      /*padding:0;*/
    }
 
    .logos{
@@ -381,14 +381,20 @@
 
    /* header styles
    -------------------------------------------------------------------- */
-   header .banner { padding-top: 24px; }
+   header .banner { padding-top: 24px;
+padding: 0;
+margin-top: -90px; }
    header .banner-text h1 {
       font: 40px/1.1em 'opensans-bold', sans-serif;      
       margin: 0 auto 24px auto;
    }
    header .banner-text h3 {
-      font: 14px/1.9em 'librebaskerville-regular', sans-serif;
+      font: 14px/1.9em 'opensans-bold', sans-serif;
       width: 90%;
+   }
+
+   header .banner-text br{
+      display: none;
    }
   
    /* header social links */

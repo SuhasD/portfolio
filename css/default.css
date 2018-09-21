@@ -732,6 +732,11 @@ properly.
 	   margin-right: 0;
       padding: 0 30px;
    }
+
+   .columns.portfolio-item{
+      padding: 0 15px;
+   }
+
    .row .row { width: auto; max-width: none; margin: 0 -30px; }
 
    [class*="column"] + [class*="column"]:last-child { float: none; }

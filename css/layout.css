@@ -70,6 +70,12 @@ header:before {
    vertical-align: middle;
    height: 100%;
 }
+
+h3.tagline{
+  color: #fff;
+  font-size:18px;
+}
+
 header .banner {
    display: inline-block;
    vertical-align: middle;
@@ -1091,7 +1097,7 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 
 .no-left-padding{
-  padding-left: 0 !important;
+  /*padding-left: 0 !important;*/
 }
 
 .popup-modal ul li{
